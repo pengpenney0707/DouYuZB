@@ -102,6 +102,7 @@
 		F93492DC2394B58300C92E2B /* DouYuzhibo */ = {
 			isa = PBXGroup;
 			children = (
+				F93493152394EFCE00C92E2B /* Classes */,
 				F93492DD2394B58300C92E2B /* AppDelegate.swift */,
 				F93492DF2394B58300C92E2B /* SceneDelegate.swift */,
 				F93492E12394B58300C92E2B /* ContentView.swift */,
@@ -137,6 +138,61 @@
 				F93493012394B58500C92E2B /* Info.plist */,
 			);
 			path = DouYuzhiboUITests;
+			sourceTree = "<group>";
+		};
+		F93493152394EFCE00C92E2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F934931B2394EFCE00C92E2B /* Main */,
+				F93493162394EFCE00C92E2B /* Home */,
+				F934931A2394EFCE00C92E2B /* Live */,
+				F93493182394EFCE00C92E2B /* Follow */,
+				F93493192394EFCE00C92E2B /* Profile */,
+				F93493172394EFCE00C92E2B /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F93493162394EFCE00C92E2B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F93493172394EFCE00C92E2B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F93493182394EFCE00C92E2B /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		F93493192394EFCE00C92E2B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F934931A2394EFCE00C92E2B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F934931B2394EFCE00C92E2B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
