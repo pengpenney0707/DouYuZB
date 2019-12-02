@@ -15,6 +15,7 @@
 		F93492EA2394B58400C92E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93492E82394B58400C92E2B /* LaunchScreen.storyboard */; };
 		F93492F52394B58500C92E2B /* DouYuzhiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93492F42394B58500C92E2B /* DouYuzhiboTests.swift */; };
 		F93493002394B58500C92E2B /* DouYuzhiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93492FF2394B58500C92E2B /* DouYuzhiboUITests.swift */; };
+		F93493142394EDA700C92E2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F93493132394EDA700C92E2B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F93492FB2394B58500C92E2B /* DouYuzhiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuzhiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93492FF2394B58500C92E2B /* DouYuzhiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuzhiboUITests.swift; sourceTree = "<group>"; };
 		F93493012394B58500C92E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93493132394EDA700C92E2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F93492D12394B58300C92E2B = {
 			isa = PBXGroup;
 			children = (
+				F93493132394EDA700C92E2B /* Default-568h@2x.png */,
 				F93492DC2394B58300C92E2B /* DouYuzhibo */,
 				F93492F32394B58500C92E2B /* DouYuzhiboTests */,
 				F93492FE2394B58500C92E2B /* DouYuzhiboUITests */,
@@ -242,6 +245,7 @@
 			files = (
 				F93492EA2394B58400C92E2B /* LaunchScreen.storyboard in Resources */,
 				F93492E72394B58400C92E2B /* Preview Assets.xcassets in Resources */,
+				F93493142394EDA700C92E2B /* Default-568h@2x.png in Resources */,
 				F93492E42394B58400C92E2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				DEVELOPMENT_TEAM = 469HBN3S8W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DouYuzhibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.penneypeng.DouYuzhibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,6 +464,7 @@
 				DEVELOPMENT_TEAM = 469HBN3S8W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DouYuzhibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.penneypeng.DouYuzhibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
